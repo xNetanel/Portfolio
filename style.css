@@ -1,0 +1,120 @@
+.body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header,
+.footer {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.pfp {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #1577a6, #ff5c00);
+  background-size: 180% 180%;
+  animation: gradient-animation 9s ease infinite;
+}
+
+.hero {
+  color: #dbe2ef;
+}
+
+h1 {
+  color: #f9f7f7;
+}
+
+.icon {
+  height: 30px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+hr {
+  width: 55%;
+  border: solid #696969 0.5px;
+  margin: 100px auto;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pfp {
+    width: 100%;
+    height: auto;
+  }
+
+  h1,
+  .lead,
+  .fs-4,
+  .fs-5 {
+    text-align: center;
+  }
+
+  .d-md-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .row-cols-lg-3 > .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .nav {
+    gap: 0.5rem;
+  }
+
+  .ref-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #work p {
+    text-align: left;
+  }
+
+  #contact p {
+    font-size: 1.2rem !important;
+  }
+
+  #contact button {
+    display: block;
+    margin: 0 auto;
+  }
+}

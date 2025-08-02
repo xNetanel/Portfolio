@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Header-->
+    <section class="container header" id="header">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4" style="color: #ff5c00"
+            >Netanel Aharon's Portfolio</span
+          >
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#header" class="nav-link active" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav-link">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </header>
+    </section>
+
+    <!--Hero-->
+    <section class="hero gradient-background">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 container">
+            <img
+              src="./images/pfp.png"
+              class="d-block mx-lg-auto img-fluid pfp"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Hi, I'm Netanel <br />
+              Programmer
+            </h1>
+
+            <p class="lead mb-3">
+              Computer science student with hands-on experience from both
+              university and high school. Strong programming and analytical
+              skills. Looking to gain practical experience and contribute to
+              tech projects.
+            </p>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start ref-container"
+            >
+              <button
+                type="button"
+                class="btn btn-outline-light btn-lg px-4 me-md-2"
+              >
+                <img src="./images/resume.svg" class="icon" />
+                Download Resume
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4">
+                <img src="./images/linkedin.svg" class="icon" />
+                Linkedin
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Education Cards-->
+    <section class="container education" id="education">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">
+          Education <img src="./images/unicap.svg" class="icon" />
+        </h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('./images/orange.png')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">
+                  Bachelor of Science in Computer Science
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/HIT.png"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white school"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Location"
+                    >
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small>HIT</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Duration"
+                    >
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background: linear-gradient(135deg, #ff5c00, #1577a6)"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">
+                  Fullstack Course
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/udemy.png"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white school"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Location"
+                    >
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small>Udemy</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Duration"
+                    >
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('./images/blue.png')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-1 mt-4 mb-4 display-6 lh-1 fw-bold">
+                  High School Diploma
+                </h3>
+                <p>Specialization in Biology and Computer Science</p>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/ohelshem.png"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Location"
+                    >
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small>Ohel Shem</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg
+                      class="bi me-2"
+                      width="1em"
+                      height="1em"
+                      role="img"
+                      aria-label="Duration"
+                    >
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--work-->
+    <section class="work container" id="work">
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Work Experience</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img src="./images/headset.svg" class="icon" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Customer Service</h3>
+            <p class="fs-5">
+              Provided customer support primarily via live chat for 10Bis,
+              resolving inquiries in a high-volume environment. Occasionally
+              held a specialized shift role, handling real-time order issues and
+              coordinating with couriers.
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img src="./images/car-front.svg" class="icon" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Escort Commander</h3>
+            <p class="fs-5">
+              During military service, I supervised detainee transfers between
+              detention facilities, courts, and medical appointments.
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img src="./images/bag-fill.svg" class="icon" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Sales Associate</h3>
+            <p class="fs-5">
+              Operated cash register, managed transactions, supported customers,
+              and maintained inventory at 'Mega Toys'.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!--contact-->
+    <section class="contact" id="contact">
+      <div class="px-4 py-5 my-5 text-center">
+        <img
+          class="d-block mx-auto mb-4"
+          src="./images/contact.svg"
+          alt=""
+          width="72"
+          height="57"
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">Get in Touch</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 fs-4">
+            Feel free to reach out! Whether you have a question, a project in
+            mind, <br />
+            or just want to connect — I’d love to hear from you. <br />I'm
+            always open to new opportunities, collaborations,<br />
+            or a quick tech chat. Let’s build something great together.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button
+              type="button"
+              class="btn btn-lg px-4 gap-3"
+              style="background-color: #ff6600; color: white; border: none"
+            >
+              CONTACT ME
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer gradient-background">
+      <div class="container">
+        <footer class="py-3 my-0">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3 mx-4">
+            <li class="nav-item">
+              <a href="#header" class="nav-link px-2 text-body-secondary"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link px-2 text-body-secondary"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link px-2 text-body-secondary"
+                >Work Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link px-2 text-body-secondary"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
